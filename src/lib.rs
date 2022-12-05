@@ -1,6 +1,7 @@
 use std::{fs::read_to_string, path::PathBuf, str::FromStr};
 
 pub mod day01;
+pub mod day04;
 
 pub trait Solver {
     type Input;
